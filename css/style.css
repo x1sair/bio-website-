@@ -1,15 +1,15 @@
 /*цвета тем*/
 :root {
-  --bg-overlay:   rgba(8, 6, 14, 0.55);
-  --card-bg:      rgba(15, 12, 24, 0.72);
-  --card-border:  rgba(180, 140, 255, 0.18);
-  --accent:       #b48cff;
+  --bg-overlay:   rgba(6, 12, 14, 0.55);
+  --card-bg:      rgba(12, 22, 24, 0.72);
+  --card-border:  rgba(16, 126, 170, 0.55);
+  --accent:       #157fbd;
   --accent2:      #ff8cd8;
   --text:         #e8e0ff;
-  --text-muted:   rgba(200, 190, 230, 0.55);
-  --dot-active:   #b48cff;
-  --dot-inactive: rgba(180, 140, 255, 0.25);
-  --scrollbar:    #b48cff44;
+  --text-muted:   rgba(16, 126, 170, 0.55);
+  --dot-active:   #267eb8;
+  --dot-inactive: rgba(22, 92, 150, 0.25);
+  --scrollbar:    #1b608844;
 }
 [data-theme="rose"] {
   --bg-overlay:   rgba(14, 6, 8, 0.55);
