@@ -200,3 +200,19 @@ function toggleBg() {
     btn.textContent = 'фон: фото';
   }
 }
+
+document.getElementById("discord-btn").addEventListener("click", function(e) {
+  e.preventDefault(); // чтобы не переходило по ссылке
+
+  const text = "blurrry_vision"; // <-- сюда вставь что копировать
+
+  navigator.clipboard.writeText(text).then(() => {
+    console.log("Скопировано:", text);
+  }).catch(err => {
+    console.error("Ошибка копирования:", err);
+  });
+  navigator.clipboard.writeText(text).then(() => {
+  alert("Discord скопирован!");
+});
+});
+
